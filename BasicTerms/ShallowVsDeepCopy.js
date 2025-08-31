@@ -34,7 +34,7 @@ let f = {
 let g =JSON.parse(JSON.stringify(f))
 g.name="shomik"
 console.log(f,g)
-// by this method , we are unable copy the key which have value is function . For Example
+// by this method , we are unable  to copy the key which have value is function . For Example
 let h = {
        name:"sanya",
        value: function(){
